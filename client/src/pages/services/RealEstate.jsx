@@ -32,7 +32,7 @@ export default function RealEstate() {
   const fetchProperties = async () => {
     setLoading(true)
     try {
-      const res = await API.get(`/properties${typeFilter !== 'all' ? `?type=${typeFilter}` : ''}`)
+      const res = await API.get(`/api/properties${typeFilter !== 'all' ? `?type=${typeFilter}` : ''}`)
       setProperties(res.data.properties || [])
     } catch { setProperties([]) }
     setLoading(false)
@@ -58,7 +58,7 @@ export default function RealEstate() {
     e.preventDefault()
     setSubmitting(true)
     try {
-      await API.post('/properties', { ...propForm, photos, bedrooms: Number(propForm.bedrooms), bathrooms: Number(propForm.bathrooms), amenities: propForm.amenities.split(',').map(a => a.trim()) })
+      await API.post('/api/properties', { ...propForm, photos, bedrooms: Number(propForm.bedrooms), bathrooms: Number(propForm.bathrooms), amenities: propForm.amenities.split(',').map(a => a.trim()) })
       setPropSubmitted(true)
       fetchProperties()
     } catch { alert('Failed to add property.') }
