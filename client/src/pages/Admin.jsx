@@ -3,7 +3,7 @@ import { useAuth } from '../context/auth-context'
 import { useNavigate } from 'react-router-dom'
 import API from '../services/api'
 
-const ADMIN_EMAIL = 'madhuchityala88@gmail.com'
+const ADMIN_EMAIL = 'maddychityala@gmail.com'
 
 export default function Admin() {
   const { user } = useAuth()
