@@ -29,7 +29,7 @@ export default function MarriageBureau() {
   const fetchProfiles = async () => {
     setLoadingProfiles(true)
     try {
-      const res = await API.get(`/marriage-profiles${genderFilter ? `?gender=${genderFilter}` : ''}`)
+      const res = await API.get(`/api/marriage-profiles${genderFilter ? `?gender=${genderFilter}` : ''}`)
       setProfiles(res.data.profiles || [])
     } catch { setProfiles([]) }
     setLoadingProfiles(false)
@@ -58,7 +58,7 @@ export default function MarriageBureau() {
     e.preventDefault()
     setLoading(true)
     try {
-      await API.post('/marriage-profiles', { ...form, interests, age: Number(form.age) })
+      await API.post('/api/marriage-profiles', { ...form, interests, age: Number(form.age) })
       await submitLead({ name: form.name, phone: form.phone, service: 'Marriage Bureau', message: form.about, formData: form })
       setSubmitted(true)
     } catch { alert('Something went wrong. Please try WhatsApp instead.') }
