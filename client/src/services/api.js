@@ -15,6 +15,28 @@ export const submitLead = async (data) => {
   }
 }
 
+// Get Properties
+export const getProperties = async (type) => {
+  try {
+    const response = await API.get(`/api/properties?type=${type || 'all'}`)
+    return response.data
+  } catch (error) {
+    console.error('Get properties error:', error)
+    throw error
+  }
+}
+
+// Create Property
+export const createProperty = async (data) => {
+  try {
+    const response = await API.post('/api/properties', data)
+    return response.data
+  } catch (error) {
+    console.error('Create property error:', error)
+    throw error
+  }
+}
+
 // Get Marriage Profiles
 export const getMarriageProfiles = async () => {
   try {
