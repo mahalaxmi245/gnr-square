@@ -6,7 +6,7 @@ const API = axios.create({
 
 export const submitLead = async (data) => {
   try {
-    const response = await API.post('/leads', data)
+    const response = await API.post('/api/leads', data)
     return response.data
   } catch (error) {
     console.error('Lead submission error:', error)
