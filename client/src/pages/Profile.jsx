@@ -8,7 +8,7 @@ import Footer from '../components/common/Footer'
 import API from '../services/api'
 
 const CLOUDINARY_CLOUD = 'dgba05ru2'
-const CLOUDINARY_PRESET = 'public_id'
+const CLOUDINARY_PRESET = 'gnr_square_preset'
 
 export default function Profile() {
   const { user, logout } = useAuth()
