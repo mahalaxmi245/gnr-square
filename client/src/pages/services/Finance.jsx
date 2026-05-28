@@ -35,24 +35,8 @@ export default function Finance() {
 
       <div className="bg-gradient-to-r from-green-500 to-emerald-600 text-white py-16 px-6 text-center">
         <div className="text-6xl mb-4">💰</div>
-        <h1 className="text-4xl font-black mb-2">Finance Services</h1>
+        <h1 className="text-4xl font-black mb-2">Financial Services</h1>
         <p className="text-green-100 text-lg max-w-xl mx-auto">Trusted financial solutions in partnership with Andromeda</p>
-      </div>
-
-      {/* Andromeda Banner */}
-      <div className="bg-blue-900 text-white py-4 px-6">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-4">
-            <div className="bg-yellow-400 text-blue-900 font-black px-3 py-1 rounded text-lg">GNR²</div>
-            <span className="text-yellow-400 font-bold text-xl">×</span>
-            <div className="bg-white text-blue-900 font-black px-3 py-1 rounded text-lg">ANDROMEDA</div>
-          </div>
-          <p className="text-blue-200 text-sm text-center">Official partnership — India's largest loan distributor network</p>
-          <div className="flex items-center gap-2">
-            <i className="fa-solid fa-shield-check text-green-400"></i>
-            <span className="text-green-400 font-semibold text-sm">Verified Partner</span>
-          </div>
-        </div>
       </div>
 
       <div className="max-w-6xl mx-auto px-6 py-12">

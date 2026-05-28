@@ -3,7 +3,7 @@ import directorPhoto from "../assets/director.jpeg";
 const stats = [
   { value: "10+", label: "Years Experience" },
   { value: "500+", label: "Happy Clients" },
-  { value: "7+", label: "Services" },
+  { value: "8+", label: "Services" },
   { value: "100%", label: "Trusted" },
 ];
 

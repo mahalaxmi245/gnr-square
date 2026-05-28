@@ -60,7 +60,7 @@ export default function Admin() {
     const colors = {
       'Vastu Consultancy': 'bg-orange-100 text-orange-700',
       'Marriage Bureau': 'bg-pink-100 text-pink-700',
-      'Finance Services': 'bg-green-100 text-green-700',
+      'Financial Services': 'bg-green-100 text-green-700',
       'Real Estate': 'bg-blue-100 text-blue-700',
       'Interior Design': 'bg-purple-100 text-purple-700',
       'Home Maintenance': 'bg-yellow-100 text-yellow-700',

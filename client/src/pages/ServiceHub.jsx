@@ -24,7 +24,7 @@ const services = [
     features: ['Verified Profiles', 'Personal Matchmaker', '500+ Matches', '100% Confidential']
   },
   {
-    title: 'Finance Services',
+    title: 'Financial Services',
     desc: 'Loans, investments & smart financial planning for your future.',
     icon: 'fa-indian-rupee-sign',
     path: '/services/finance',
@@ -72,6 +72,16 @@ const services = [
     bg: 'bg-red-50',
     border: 'border-red-200',
     features: ['Facebook & Instagram Ads', 'Google Ads', 'SEO Services', 'Video Marketing']
+  },
+  {
+    title: 'Telemarketing Network',
+    desc: 'Grow your business with professional calling campaigns & lead generation.',
+    icon: 'fa-headset',
+    path: '/services/telemarketing',
+    gradient: 'from-indigo-400 to-purple-600',
+    bg: 'bg-indigo-50',
+    border: 'border-indigo-200',
+    features: ['Inbound & Outbound Calls', 'Lead Generation', 'Appointment Setting', 'Market Research']
   },
 ]
 

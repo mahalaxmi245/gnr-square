@@ -37,6 +37,7 @@ export default function Footer() {
             <li><Link to="/services/interior" className="hover:text-yellow-400 transition"><i className="fa-solid fa-chevron-right mr-2 text-xs"></i>Interior Designs</Link></li>
             <li><Link to="/services/maintenance" className="hover:text-yellow-400 transition"><i className="fa-solid fa-chevron-right mr-2 text-xs"></i>Home Maintenance</Link></li>
             <li><Link to="/services/ads" className="hover:text-yellow-400 transition"><i className="fa-solid fa-chevron-right mr-2 text-xs"></i>Digital Advertising</Link></li>
+            <li><Link to="/services/telemarketing" className="hover:text-yellow-400 transition"><i className="fa-solid fa-chevron-right mr-2 text-xs"></i>Telemarketing Network</Link></li>
           </ul>
         </div>
 

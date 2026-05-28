@@ -15,6 +15,7 @@ import RealEstate from './pages/services/RealEstate'
 import InteriorDesign from './pages/services/InteriorDesign'
 import HomeMaintenance from './pages/services/HomeMaintenance'
 import DigitalAds from './pages/services/DigitalAds'
+import TelemarketingNetwork from './pages/services/TelemarketingNetwork'
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
         <Route path="/services/interior" element={<InteriorDesign />} />
         <Route path="/services/maintenance" element={<HomeMaintenance />} />
         <Route path="/services/ads" element={<DigitalAds />} />
+        <Route path="/services/telemarketing" element={<TelemarketingNetwork />} />
       </Routes>
     </BrowserRouter>
   )

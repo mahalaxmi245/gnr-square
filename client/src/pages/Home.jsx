@@ -19,7 +19,7 @@ const services = [
     shadow: 'shadow-pink-200',
   },
   {
-    title: 'Finance Services',
+    title: 'Financial Services',
     desc: 'Loans, investments & smart financial planning for your future.',
     icon: 'fa-solid fa-indian-rupee-sign',
     path: '/services/finance',
@@ -57,6 +57,14 @@ const services = [
     path: '/services/ads',
     gradient: 'from-red-400 to-pink-600',
     shadow: 'shadow-red-200',
+  },
+  {
+    title: 'Telemarketing Network',
+    desc: 'Grow your business with professional calling campaigns & lead generation.',
+    icon: 'fa-solid fa-headset',
+    path: '/services/telemarketing',
+    gradient: 'from-indigo-400 to-purple-600',
+    shadow: 'shadow-indigo-200',
   },
 ]
 
@@ -107,7 +115,7 @@ export default function Home() {
       <div className="bg-yellow-400 py-6 px-6">
         <div className="max-w-4xl mx-auto grid grid-cols-3 gap-4 text-center">
           <div>
-            <p className="text-2xl font-black text-blue-900">7+</p>
+            <p className="text-2xl font-black text-blue-900">8+</p>
             <p className="text-sm font-semibold text-blue-800">Services</p>
           </div>
           <div>
